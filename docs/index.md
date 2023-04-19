@@ -28,4 +28,4 @@ hide:
 Ιατρικό Διαβαλκανικό Κέντρο, Ασκληπιού 10, Πυλαία, Θεσσαλονίκη<br>
 <br>
 [Παρεχόμενες Υπηρεσίες](Andreas-Sidiropoulos/2){ .md-button }
-[Βιογραφικό](Andreas-Sidiropoulos/3){ .md-button }
+[Βιογραφικό](/3){ .md-button }
