@@ -1,0 +1,69 @@
+site_name: Δρ. Ανδρέας Σιδηρόπουλος - Κλινικός Καρδιολόγος
+theme:
+  name: material
+  icon:
+    logo: fontawesome/solid/staff-snake
+  language: el
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: red
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: red
+      accent: indigo
+  plugins:
+    - offline
+    - optimize:
+      concurrency: 1
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - navigation.tracking
+    - header.autohide
+    - toc.integrate
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - content.tabs.link
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra:
+  generator: false
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:achsid@gmail.com?subject=from http://127.0.0.1:8000/
+      name: Send e-mail
+
+extra_javascript:
+  - javaScript.js
+
+extra_css:
+  - css.css
+
+copyright: |
+  &copy; 2023 Andreas Sidiropoulos
