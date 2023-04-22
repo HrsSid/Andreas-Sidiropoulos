@@ -4,6 +4,8 @@ hide:
   - toc
 ---
 
+# Αρχική Σελίδα
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EHJMRXEH1X"></script>
 <script>
@@ -13,8 +15,6 @@ hide:
 
   gtag('config', 'G-EHJMRXEH1X');
 </script>
-
-# Αρχική Σελίδα
 
 <p class="title">Δρ. Ανδρέας Σιδηρόπουλος</p>
 <p class="subtitle">Κλινικός Καρδιολόγος, Διδάκτωρ Ιατρικής Πανεπιστημίου Θεσσαλίας</p>
