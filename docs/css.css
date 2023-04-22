@@ -62,3 +62,7 @@
   border: 1px solid #d25050;
   background: #d25050;
 }
+.signature {
+  position: absolute;
+  transform: translate(0%, -30%);
+}
